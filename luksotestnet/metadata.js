@@ -1,0 +1,39 @@
+export const metadata = {
+    "blockExplorers": [
+        {
+            "apiUrl": "https://api.explorer.execution.testnet.lukso.network/api",
+            "family": "blockscout",
+            "name": "LUKSO Testnet Explorer",
+            "url": "https://explorer.execution.testnet.lukso.network"
+        }
+    ],
+    "blocks": {
+        "confirmations": 1,
+        "estimateBlockTime": 12,
+        "reorgPeriod": 14
+    },
+    "index": {
+        "from": 5265029
+    },
+    "chainId": 4201,
+    "deployer": {
+        "name": "Hashi",
+        "url": "https://crosschain-alliance.gitbook.io/hashi"
+    },
+    "displayName": "LUKSO Testnet",
+    "domainId": 4201,
+    "isTestnet": true,
+    "name": "luksotestnet",
+    "nativeToken": {
+        "decimals": 18,
+        "name": "Testnet LUKSO",
+        "symbol": "LYXt"
+    },
+    "protocol": "ethereum",
+    "rpcUrls": [
+        {
+            "http": "https://rpc.testnet.lukso.network"
+        }
+    ],
+    "technicalStack": "other"
+};

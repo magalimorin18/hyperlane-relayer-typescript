@@ -1,0 +1,25 @@
+aggregationHook: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+domainRoutingIsm: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+domainRoutingIsmFactory: "0xD0970DDeC5335A0F46e8aa78C93Acb1316373F1e"
+fallbackRoutingHook: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+interchainAccountIsm: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+interchainAccountRouter: "0x63757B39B667EAa732ED2eD52059A80CE3897bEC"
+interchainGasPaymaster: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+interchainSecurityModule: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+mailbox: "0x8312d74f7ab4100937158B772280278e79237A8A"
+merkleTreeHook: "0x6a78d1e52292664a92C62398D1Be59967dA4f9c8"
+pausableHook: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+pausableIsm: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+protocolFee: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+proxyAdmin: "0x6a3Db9Bea74E11D24b8C73624C30Bd4002593153"
+staticAggregationHookFactory: "0x39FDd2c9aE61aE745C1b54Abf1c71849bBA6E2BB"
+staticAggregationIsm: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+staticAggregationIsmFactory: "0xc7020626d4Ee5b861273ab832554796C4717d4c9"
+staticMerkleRootMultisigIsmFactory: "0xd3750a33e7B9Be51Fa85BE475f3874261586cf25"
+staticMerkleRootWeightedMultisigIsmFactory: "0xB793F271a900E9Fb7e30e617d35E08D9081967d7"
+staticMessageIdMultisigIsmFactory: "0x100095b1b25152513fca5C02A8B14F7c045a5F87"
+staticMessageIdWeightedMultisigIsmFactory: "0x931CdC046Eca0515A674bbd1D906810F29f60b6a"
+storageGasOracle: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+testRecipient: "0xCB67BF3D4F296273ab6B8a8258397ca9C23600F2"
+timelockController: "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" # TBD
+validatorAnnounce: "0xe26aF1677893A82D21cA04001c79E25c193426aB"

@@ -1,0 +1,13 @@
+{
+  "name": "hyperlane-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@hyperlane-xyz/cli": "^15.0.0",
+    "@hyperlane-xyz/registry": "^19.4.0"
+  },
+  "scripts": {
+    "relayer:testnet": "bash run-relayer.sh"
+  }
+}
