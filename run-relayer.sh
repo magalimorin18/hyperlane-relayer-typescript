@@ -19,4 +19,5 @@ echo "🔀 Run the Hyperlane Typescript relayer. Let's go!"
 source .env
 bun run hyperlane relayer \
     --registry ./local-registry \
-    --chains luksotestnet,sepolia
+    --chains luksotestnet,sepolia,basesepolia \
+    --verbosity debug

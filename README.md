@@ -19,7 +19,7 @@ SSH into the Google Cloud VM:
 ```bash
 gcloud compute ssh \
   --zone "europe-west10-a" \
-  "hyperlane-lukso-testnet-relayer-typescript" \
+  "hyperlane-lukso-testnet-relayer" \
   --project "lukso-infrastructure-dev"
 ```
 
