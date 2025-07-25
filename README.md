@@ -25,6 +25,12 @@ gcloud compute ssh \
 
 ### Setup Repository (On VM)
 
+Install bun
+
+```bash
+docker run -it --rm oven/bun bash
+```
+
 Clone the hyperlane agents repository:
 
 ```bash
@@ -45,8 +51,11 @@ docker build -t hyperlane-relayer .
 ```bash
 # ⚠️ Add the relayer private key to the command
 docker run --restart=unless-stopped -e HYP_KEY=INPUT_HYP_KEY -d hyperlane-relayer
-
 ```
+
+Check the relayer is running well:
+`docker ps` ==> Get the container ID
+`docker logs <CONTAINER_ID> -f` => get the logs continuously
 
 ## 🔧 Configuration
 
