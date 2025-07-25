@@ -16,8 +16,8 @@ cp -r luksotestnet local-registry/chains
 
 # Run the relayer
 echo "🔀 Run the Hyperlane Typescript relayer. Let's go!"
-source .env
 bun run hyperlane relayer \
     --registry ./local-registry \
     --chains luksotestnet,sepolia,basesepolia \
     --verbosity debug
+    

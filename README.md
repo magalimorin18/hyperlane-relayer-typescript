@@ -42,10 +42,10 @@ docker build -t hyperlane-relayer .
 
 ### Run Container
 
-Start the container in interactive mode:
-
 ```bash
-docker run -e HYP_KEY=relayer_private_key_here -d hyperlane-relayer
+# ⚠️ Add the relayer private key to the command
+docker run --restart=unless-stopped -e HYP_KEY=INPUT_HYP_KEY -d hyperlane-relayer
+
 ```
 
 ## 🔧 Configuration
